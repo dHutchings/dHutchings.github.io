@@ -1,0 +1,15 @@
+Plan:
+
+I don't like the massive super long one page portfolios...
+
+Sections:
+
+-Main Page --> has portfolio grid
+Grid: 				Techical | Organizational
+Professional
+Community Service
+Education
+
+-Education, Qualifications, & Skills
+-link to resume
+-Contact me!
