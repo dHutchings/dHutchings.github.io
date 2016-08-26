@@ -3971,6 +3971,16 @@ button.close {
   max-width: 100%;
 }
 
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
 a.thumbnail:hover,
 a.thumbnail:focus {
   border-color: #428bca;
