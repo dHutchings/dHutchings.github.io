@@ -6,7 +6,32 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
- 
+ .embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
 .font-thin {
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 200;
@@ -51,7 +76,7 @@ body {
 }
 
 .navbar {
-	background-color: #e4e6e5;
+	background-color: #c9cbca;
 	background-color: rgba( 228, 230, 229, .85 );
 	border-bottom: 0 none;
 	font-size: 12px;
@@ -71,7 +96,7 @@ body {
 }
 
 .navbar.inv a {
-	color: #e4e6e5;
+	color: #c9cbca;
 }
 
 
@@ -109,7 +134,7 @@ body {
 }
 
 .inv .active-menu {
-	background-color: #e4e6e5;
+	background-color: #c9cbca;
 }
 
 .special-active-menu {
@@ -163,12 +188,12 @@ body {
 	}
 	
 	.navbar {
-		background-color: #e4e6e5 !important;
+		background-color: #c9cbca !important;
 		padding: 0;
 	}
 	
 	.navbar .nav a {
-		color: #e4e6e5;
+		color: #c9cbca;
 		font-size: 16px;
 		padding-left: 0;
 	}
@@ -217,7 +242,7 @@ body {
 
 #slide-1 {
 	background-color: #1a8bbc;
-	color: #e4e6e5;
+	color: #c9cbca;
 	padding-top: 90px;
 }
 
@@ -227,7 +252,7 @@ body {
 	}
 	
 	.line-row .hr {
-		background-color: #e4e6e5;
+		background-color: #c9cbca;
 		height: 5px;
 		margin: 0 auto;
 		width: 33%;
@@ -296,7 +321,7 @@ body {
 
 #slide-2 {
 	background-color: #1abc9c;
-	color: #e4e6e5;
+	color: #c9cbca;
 	padding-top: 90px;
 }
 
@@ -306,7 +331,7 @@ body {
 	}
 	
 	.line-row .hr {
-		background-color: #e4e6e5;
+		background-color: #c9cbca;
 		height: 5px;
 		margin: 0 auto;
 		width: 33%;
@@ -375,7 +400,7 @@ body {
 
 #slide-3 {
 	background-color: #B71A3A;
-	color: #e4e6e5;
+	color: #c9cbca;
 	padding-top: 90px;
 }
 
@@ -386,7 +411,7 @@ body {
 
 #slide-4 {
 	background-color: #34495e;
-	color: #e4e6e5;
+	color: #c9cbca;
 	padding-top: 90px;
 }
 
@@ -398,13 +423,13 @@ body {
 
 #slide-5 {
 	background-color: #f39c12;
-	color: #e4e6e5;
+	color: #c9cbca;
 	padding-top: 90px;
 }
 
 #slide-6 {
 	background-color: #2f2f2f;
-	color: #e4e6e5;
+	color: #c9cbca;
 	padding-bottom: 350px;
 	padding-top: 90px;
 }
@@ -462,7 +487,7 @@ body {
 	}
 
 #slide-7 {
-	background-color: #e4e6e5;
+	background-color: #c9cbca;
 	color: #4e4e4e;
 	font-size: 35px;
 	line-height: 50px;
