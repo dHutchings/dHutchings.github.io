@@ -710,6 +710,9 @@ pre code {
   border: 0;
 }
 
+a:link {
+  color: inherit;
+}
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
@@ -2376,7 +2379,7 @@ a.list-group-item.active .list-group-item-text {
 }
 
 .panel {
-  color:black;
+  color:inherit;
   padding: 15px;
   margin-bottom: 20px;
   background-color: #ffffff;
@@ -2421,6 +2424,9 @@ a.list-group-item.active .list-group-item-text {
 
 .panel-title > a {
   color: inherit;
+  display: block;
+  padding: 10px 15px;
+  margin: -10px -15px;
 }
 
 .panel-footer {
@@ -2434,6 +2440,7 @@ a.list-group-item.active .list-group-item-text {
 
 .panel-primary {
   border-color: #428bca;
+  background-color: #abcdef;
 }
 
 .panel-primary .panel-heading {
@@ -2481,6 +2488,22 @@ a.list-group-item.active .list-group-item-text {
   background-color: #d9edf7;
   border-color: #bce8f1;
 }
+
+.panel-body {
+  color: inherit;
+}
+
+
+
+.panel-borderless {
+  border: 0;
+  box-shadow: none;
+  padding: 0px 0px;
+  margin: 0px 0px 0px;
+  background:transparent;
+}
+
+
 
 .well {
   min-height: 20px;
