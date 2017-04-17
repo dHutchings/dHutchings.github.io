@@ -50,11 +50,7 @@ body {
   margin: 0;
 }
 
-a,
-a:visited
-{
-	color:blue;
-}
+
 a:focus {
   outline: thin dotted;
   color:blue;
